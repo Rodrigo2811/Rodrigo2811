@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    color: white;
+    background-color: #343B7B;
+}
+
+h3 {
+    font-size: 1.7rem;
+    border-bottom: 2px solid orange;
+    width: 180px;
+}
+
+header {
+    padding: 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.icone-header {
+
+    background-color: orange;
+    border-radius: 100px;
+    color: blue;
+    font-weight: 700;
+    height: auto;
+    padding: 15px;
+    font-size: 1rem;
+    margin-left: -500px;
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    animation: mov 5s infinite;
+    animation-delay: 2s;
+
+}
+
+@keyframes mov {
+    0% {
+        left: 0px;
+    }
+
+    25% {
+        left: 200px;
+    }
+
+    50% {
+        left: 200px;
+    }
+
+    75% {
+        left: 0px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+
+header a {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 700px;
+
+}
+
+nav ul a {
+    display: inline-flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: auto;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-left: 15px;
+    padding: 20px 20px 20px 20px;
+    transition-duration: 0.4s;
+}
+
+nav ul a:hover {
+    content: '';
+    background: linear-gradient(to left, orange, transparent);
+    transform: skewX(20deg) translateX(0);
+    transition: 0.5s;
+}
+
+
+#Sobre-Mim {
+    display: inline-flex;
+    font-size: 1.7rem;
+
+}
+
+.container-text {
+
+    display: block;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    padding: 70px;
+    margin-top: 30px;
+    margin-right: 100px;
+    text-align: justify;
+
+}
+
+.container-img {
+    margin-right: 300px;
+    margin-left: 70px;
+
+}
+
+
+strong {
+    font-size: 1.6rem;
+    color: orange;
+}
+
+
+footer {
+    color: #343B7B;
+    margin-top: 80px;
+    background-color: orange;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+
+.redes {
+    width: 200px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-left: 50%;
+}
+
+.fa-brands {
+    font-size: 25px;
+    margin-left: 10px;
+    color: #343B7B;
+
+}
+
+.fa-solid {
+    font-size: 25px;
+    margin-left: 5px;
+    color: #343B7B;
+}
+
+.rodape-2 {
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 45%;
+}
+
+#Habilidades {
+
+    margin-left: 20px;
+    display: flex;
+}
+
+.container-box {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+
+
+}
+
+.box {
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    width: 200px;
+    height: 220px;
+    background-color: white;
+
+}
+
+.box:hover {
+    filter: opacity(.60);
+    animation-name: box;
+    animation-duration: 4s;
+
+
+}
+
+.container-box-projetos {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    margin-left: 300px;
+    margin-right: 5%;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    transition: all .4s;
+
+}
+
+.box-projetos {
+
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    width: 200px;
+    height: 250px;
+
+}
+
+
+@keyframes box {
+    from {
+        transform: rotatey(0deg);
+    }
+
+    to {
+        transform: rotatey(360deg);
+    }
+}
+
+#Projetos {
+    margin-left: 20px;
+    display: flex;
+}
+
+.box img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.box-projetos img {
+
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    height: 250px;
+
+}
+
+.box-projetos:hover {
+
+    border-radius: 10px;
+    -moz-transform: scale(2.0);
+    -webkit-transform: scale(2.0);
+    transform: scale(2.0);
+    transition: all .4s;
+}
+
+
+
+#Contato {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    display: block;
+
+}
+
+
+.fa-angles-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(179, 33, 33);
+    text-decoration: none;
+}
+
+.fa-angles-up::after {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(21, 100, 168);
+    transition: margin-top 250ms;
+    height: 100px;
+}
+
+.fa-angles-up:hover::after {
+
+    margin-top: -8px;
+}
+
+
+
+
+#form {
+    width: 250px;
+    height: auto;
+    padding: 20px;
+}
+
+input {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+textarea {
+    width: 400px;
+    height: auto;
+    border: none;
+}
+
+button {
+    margin-top: 5px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: orange;
+
+}

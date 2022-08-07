@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6603d8438e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/estilos.css">
+   
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+
+            <ul>
+                <div>
+                    <small class="icone-header">RLD</small>
+                </div>
+                <div class="container">
+                    <a class="btn-nav" href="#Sobre-Mim">Sobre Mim</a>
+                    <a class="btn-nav" href="#Habilidades">Habilidades</a>
+                    <a class="btn-nav" href="#Projetos">Projetos</a>
+                    <a class="btn-nav" href="#Contato">Contato</a>
+                </div>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Sobre-Mim">
+
+        <div class="container-text">
+            <p>Olá,</p>
+            <p>Sou Rodrigo <strong>Lopes Dominguez</strong></p>
+            <p>Desenvolvedor Front End Jr</p><br>
+            <div id="mas-sobre-mim">
+                <h2></h2>
+                <button type="button" onclick="loadDoc()">Saiba mais sobre mim</button>
+                </div>
+
+        </div>
+
+        <div class="container-img">
+            <img src="./img/avatartransp2.png   " alt="Minha foto">
+        </div>
+
+    </section>
+    <section id="Habilidades">
+
+        <article>
+            <div>
+                <h3>Habilidade</h3><br><br>
+            </div>
+            <br><br>
+            <br><br>
+            <div class="container-box">
+                <div class="box">
+                    <img src="./img/iconehtml5.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./img/iconecss.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./img/iconejs.png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./img/Github.png" alt="">
+                </div>
+
+                <div class="box">
+                    <img src="./img/iconebootstrap.png" alt="">
+                </div>
+
+            </div>
+
+        </article>
+
+
+    </section>
+
+    <section id="Projetos">
+        <article>
+            <div>
+                <h3>Projetos</h3><br><br>
+            </div>
+            <br><br>
+
+            <div class="container-box-projetos">
+                <div class="box-projetos">
+                    <a href="./img/servidocs site.png" target="_blank"><img src="./img/servidocs site.png" alt=""></a> 
+                </div>
+                <div class="box-projetos">
+                   <a href="./img/caculadoragorjeta.png" target="_blank"><img target="_blank" src="./img/caculadoragorjeta.png" alt="" ></a> 
+                </div>
+                <div class="box-projetos">
+                   <a href="./img/calculadora.png" target="_blank"><img src="./img/calculadora.png" alt=""></a> 
+                </div>
+                <div class="box-projetos">
+                   <a href="./img/cartaoservidocs.png" target="_blank"><img src="./img/cartaoservidocs.png" alt=""></a> 
+                </div>
+
+            </div>
+
+        </article>
+
+    </section>
+
+    <section id="Contato">
+        <h3>Contato</h3>
+        <div id="form-contato">
+
+        
+        <form action="https://formsubmit.co/rodrigoleiro@gmail.com" enctype="multipart/form-data" id="form" method="post">
+
+            <input type="text" name="Nome" placeholder="Digite o Nome" id="nome"><br>
+            <input type="text" name="sobrenome" placeholder="Digite o Sobrennome" id="sobrenome"><br>
+            <input type="email" name="email" placeholder="Digite o E-mail" id="email"><br>
+            <textarea name="mensagem" id="mensagem" cols="5" rows="5" id="mensagem"></textarea><br>
+
+            <button type="button" onclick="validaForm()" value="Enviar">Enviar</button>
+
+        </form>
+    </div>
+    </section>
+
+    <footer>
+        <div class="redes">
+            <a href="https://www.instagram.com/rodrigoleiro/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/rodrigo-l-dominguez/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/5571992757874"><i class="fa-brands fa-whatsapp"></i>
+            <a href="rodrigoleiro@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+          
+
+            </a>
+            <br>
+        </div>
+
+        <p class="rodape-2">&copy;. Desenvolvido por Rodrigo Dominguez</p>
+        <a href="#" class="btn"><i class="fa-solid fa-angles-up"></i>
+
+        </a>
+    </footer>
+
+
+<script src="./js/script.js"></script>
+<script src="./js/form.js"></script>
+</body>
+
+</html>
