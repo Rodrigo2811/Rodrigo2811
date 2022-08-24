@@ -208,12 +208,14 @@ footer {
 .container-box-projetos {
     margin-top: 5px;
     margin-bottom: 40px;
-    margin-left: 150px;
+    margin-left: 240px;
     margin-right: 5%;
     border-radius: 10px;
     display: flex;
     align-content: center;
     transition: all .4s;
+    justify-content: space-between;
+    align-content: center;
 
 }
 
@@ -239,7 +241,7 @@ footer {
 }
 
 #Projetos {
-    margin-left: 100px;
+    margin-left: 20px;
     display: flex;
 }
 
