@@ -224,8 +224,8 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
-   
-    }
+
+}
 
 
 @keyframes box {
@@ -239,7 +239,7 @@ footer {
 }
 
 #Projetos {
-    margin-left: 20px;
+    margin-left: 100px;
     display: flex;
 }
 
@@ -257,7 +257,10 @@ footer {
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
     height: 300px;
-    width: 250px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+
 
 }
 
