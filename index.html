@@ -7,18 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/6603d8438e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/estilos.css">
-    
-   
     <title>Portfolio</title>
 </head>
 
-<body>
+<body id="fundo">
     <header>
         <nav class="menu">
-
             <ul>
                 <div>
-                    <small class="icone-header">RLD</small>
+                    <small class="icone-header" onload="(icone-header)">RLD</small>
                 </div>
                 <div class="container">
                     <a class="btn-nav" href="#Sobre-Mim">Sobre Mim</a>
@@ -38,10 +35,10 @@
             <p>Sou Rodrigo <strong>Lopes Dominguez</strong></p>
             <p>Desenvolvedor Front End Jr</p><br>
             <div id="mas-sobre-mim">
-                <h2></h2>
-                <button type="button" onclick="loadDoc()">Saiba mais sobre mim</button>
-                </div>
+                <button type="button" onclick="loadDoc()">Saiba mais sobre mim</button><br><br>
 
+            </div>
+            <a href="../Rodrigo2811/img/curriculo.pdf" target="_blank"><button>Baixar Curriculo</button></a>
         </div>
 
         <div class="container-img">
@@ -56,32 +53,59 @@
                 <h3>Habilidade</h3><br><br>
             </div>
             <br><br>
-            <br><br>
             <div class="container-box">
                 <div class="box">
-                    <img src="./img/iconehtml5.png" alt="">
+                    <img src="./img/iconehtml5.png" alt="html">
+
                 </div>
                 <div class="box">
-                    <img src="./img/iconecss.png" alt="">
+                    <img class="img-habilidades" src="./img/iconecss.png" alt="css">
+
                 </div>
                 <div class="box">
-                    <img src="./img/iconejs.png" alt="">
+                    <img class="img-habilidades" src="./img/iconejs.png" alt="js">
+
                 </div>
                 <div class="box">
-                    <img src="./img/Github.png" alt="">
+                    <img class="img-habilidades" src="./img/Github.png" alt="Git">
+
                 </div>
 
                 <div class="box">
-                    <img src="./img/iconebootstrap.png" alt="">
+                    <img class="img-habilidades" src="./img/iconebootstrap.png" alt="bootstrap">
+
                 </div>
 
                 <div class="box">
-                    <img src="./img/logo_figma.png" alt="">
+                    <img class="img-habilidades" src="./img/logo_figma.png" alt="Figma">
+
                 </div>
 
             </div>
+            <article>
+
+                <div class="container-box-2">
+                    <div class="box">
+                        <img src="./img/icone python.png" alt="Python">
+
+                    </div>
+                    <div class="box">
+                        <img class="img-habilidades" src="./img/icone node.jpg" alt="Node">
+
+                    </div>
+                    <div class="box">
+                        <img class="img-habilidades" src="./img/sass.png" alt="Sass">
+
+                    </div>
+
+
+                </div>
+
+            </article>
 
         </article>
+
+    </section>
 
 
     </section>
@@ -95,16 +119,17 @@
 
             <div class="container-box-projetos">
                 <div class="box-projetos">
-                    <a href="./img/servidocs site.png" target="_blank"><img src="./img/servidocs site.png" alt=""></a> 
+                    <a href="./img/servidocs.png" target="_blank"><img src="./img/servidocs.png" alt=""></a>
                 </div>
                 <div class="box-projetos">
-                   <a href="./img/caculadoragorjeta.png" target="_blank"><img target="_blank" src="./img/caculadoragorjeta.png" alt="" ></a> 
+                    <a href="./img/caculadoragorjeta.png" target="_blank"><img target="_blank"
+                            src="./img/caculadoragorjeta.png" alt=""></a>
                 </div>
                 <div class="box-projetos">
-                   <a href="./img/calculadora.png" target="_blank"><img src="./img/calculadora.png" alt=""></a> 
+                    <a href="./img/calculadora.png" target="_blank"><img src="./img/calculadora.png" alt=""></a>
                 </div>
                 <div class="box-projetos">
-                   <a href="./img/cartaoservidocs.png" target="_blank"><img src="./img/cartaoservidocs.png" alt=""></a> 
+                    <a href="./img/cartaoservidocs.png" target="_blank"><img src="./img/cartaoservidocs.png" alt=""></a>
                 </div>
 
             </div>
@@ -117,18 +142,18 @@
         <h3>Contato</h3>
         <div id="form-contato">
 
-        
-        <form action="https://formsubmit.co/rodrigoleiro@gmail.com" enctype="multipart/form-data" id="form" method="post">
+            <form action="https://formsubmit.co/rodrigoleiro@gmail.com" enctype="multipart/form-data" id="form"
+                method="post">
 
-            <input type="text" name="Nome" placeholder="Digite o Nome" id="nome"><br>
-            <input type="text" name="sobrenome" placeholder="Digite o Sobrennome" id="sobrenome"><br>
-            <input type="email" name="email" placeholder="Digite o E-mail" id="email"><br>
-            <textarea name="mensagem" id="mensagem" cols="5" rows="5" id="mensagem"></textarea><br>
+                <input type="text" name="Nome" placeholder="Digite o Nome" id="nome"><br>
+                <input type="text" name="sobrenome" placeholder="Digite o Sobrennome" id="sobrenome"><br>
+                <input type="email" name="email" placeholder="Digite o E-mail" id="email"><br>
+                <textarea name="mensagem" id="mensagem" cols="5" rows="5" id="mensagem"></textarea><br>
 
-            <button type="button" onclick="validaForm()" value="Enviar">Enviar</button>
+                <button type="button" onclick="validaForm()" value="Enviar">Enviar</button>
 
-        </form>
-    </div>
+            </form>
+        </div>
     </section>
 
     <footer>
@@ -136,8 +161,7 @@
             <a href="https://www.instagram.com/rodrigoleiro/"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://www.linkedin.com/in/rodrigo-l-dominguez/"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://wa.me/5571992757874"><i class="fa-brands fa-whatsapp"></i>
-            <a href="https://rodrigoleiro@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-          
+                <a href="https://rodrigoleiro@gmail.com"><i class="fa-solid fa-envelope"></i></a>
 
             </a>
             <br>
@@ -149,9 +173,9 @@
         </a>
     </footer>
 
-
-<script src="./js/script.js"></script>
-<script src="./js/form.js"></script>
+    <script src="./js/animacao.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/form.js"></script>
 </body>
 
 </html>
