@@ -9,6 +9,9 @@
   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="React" height="30" width="40" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHZWO5p3Q2BMhM0SPeYgdjH5QXZZMd2iq5IHu7HK6b_Ed8VolVkmGbF1WwXHHICx0CGnQ&usqp=CAU">
+ <img align="center" alt="React" height="30" width="40" src="https://usemobile.com.br/wp-content/uploads/2022/08/react-native-logo.png">
+ 
 </div>
  
  <br>
