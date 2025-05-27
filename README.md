@@ -11,6 +11,8 @@
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="React" height="30" width="40" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHZWO5p3Q2BMhM0SPeYgdjH5QXZZMd2iq5IHu7HK6b_Ed8VolVkmGbF1WwXHHICx0CGnQ&usqp=CAU">
  <img align="center" alt="React" height="30" width="40" src="https://usemobile.com.br/wp-content/uploads/2022/08/react-native-logo.png">
+ <img align="center" alt="BootStrap" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png">
+ <img align="center" alt="React" height="30" width="40" src="https://sae.unb.br/cae/conteudo/unbfga/sbd/imagens/postgresql-logo.png">
  
 </div>
  
